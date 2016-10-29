@@ -1,0 +1,25 @@
+@import '../variables/variables.less';
+
+.mixin_content( @color, @font_size, @padding, @direct, @font_family ){
+    color: @color;
+    font-size: @font_size;
+    padding: @padding;
+    float: @direct;
+    font-family :@font_family;
+}
+
+.slider-thumb{
+    background-color: @bg_default;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.range-track{
+    border-radius: 8px;
+    height: 6px;
+    background-color: @color_default;
+    cursor: pointer;
+}
